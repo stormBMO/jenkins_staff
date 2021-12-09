@@ -1,11 +1,12 @@
+plugins {
+    id 'jacoco'
+}
+
+
 apply plugin: 'java'
 
 repositories {
     mavenCentral()
-}
-
-plugins {
-    id 'jacoco'
 }
 
 dependencies {
